@@ -29,9 +29,9 @@ I specialize in translating ambiguous business requirements into robust, data-dr
 
 ### 📈 [Geometric Monthly Returns Heatmap](https://in.tradingview.com/script/OsAQHt42-Geometric-Monthly-Returns-Heatmap/) — TradingView Pine Script & Automation
 *An automated trading script that identifies market structural shifts using historical volume profiles and price-action logic.*
-* **Product Impact:** Designed a rule-based quantitative framework to eliminate emotional execution friction, mapping multi-timeframe confirmation rules.
-* **Technical Execution:** Written in **Pine Script (v5/v6)** using array pipelines and matrix layers to calculate multi-period data streams with zero chart lag.
-* **Automation Ready:** Structured with standardized, clean JSON alert string comments, engineered to pipe data directly into external webhooks and middleware engines.
+* **Product Impact:** The Geometric Monthly Returns Heatmap is a powerful visual dashboard that breaks down asset performance by month and year. Unlike standard  performance tables that only show simple arithmetic sums, this indicator calculates both Geometric and Arithmetic Year-to-Date (YTD) returns side-by-side. This allows traders to see the true compounding impact of monthly gains and losses on their equity.
+* **Technical Execution:** Written in **Pine Script (v5/v6)** The script initializes a dynamic table in the bottom-right corner of your chart and populates historical data using a localized historical indexing loop
+
  
 
 ---
