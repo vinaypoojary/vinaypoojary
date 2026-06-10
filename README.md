@@ -50,12 +50,15 @@ I specialize in translating ambiguous business requirements into robust, data-dr
 
 ## 📂 Highlighted Products & Shipped Code
 
-### 📈 [Geometric Monthly Returns Heatmap](https://in.tradingview.com/script/OsAQHt42-Geometric-Monthly-Returns-Heatmap/) — TradingView Pine Script & Automation
-*An automated trading script that identifies market structural shifts using historical volume profiles and price-action logic.*
+### 📈 [Geometric Monthly Returns Heatmap](https://in.tradingview.com/script/OsAQHt42-Geometric-Monthly-Returns-Heatmap/) — TradingView table
 * **Product Impact:** The Geometric Monthly Returns Heatmap is a powerful visual dashboard that breaks down asset performance by month and year. Unlike standard  performance tables that only show simple arithmetic sums, this indicator calculates both Geometric and Arithmetic Year-to-Date (YTD) returns side-by-side. This allows traders to see the true compounding impact of monthly gains and losses on their equity.
 * **Technical Execution:** Written in **Pine Script (v5/v6)** The script initializes a dynamic table in the bottom-right corner of your chart and populates historical data using a localized historical indexing loop
 
- 
+ ### 📈 [Order Block Strategy](https://in.tradingview.com/script/WTvOUjFA-Order-Block-Strategy/) — TradingView Strategy
+* **Product Impact:** This strategy automates the detection of Order Blocks (Institutional Supply & Demand Zones) using swing pivot highs and lows. It provides clear visual zone plotting and executes trades when price mitigates these zones, protecting your capital via adaptive risk management tools.Unlike static strategies, this system includes dual risk management logic (ATR-based and Percentage-based), allowing you to trade safely across highly volatile crypto assets, forex pairs, or traditional equities.
+* **Technical Execution:** Written in **Pine Script (v5/v6)** The script constantly monitors swing high and low points over a customizable lookback period.
+Bullish OB: Plotted when a key swing low forms, identifying the last down-close candle high/low range before an upward impulse.
+Bearish OB: Plotted when a key swing high forms, identifying the last up-close candle high/low range before a downward impulse
 
 ---
 
