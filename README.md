@@ -60,6 +60,10 @@ I specialize in translating ambiguous business requirements into robust, data-dr
 Bullish OB: Plotted when a key swing low forms, identifying the last down-close candle high/low range before an upward impulse.
 Bearish OB: Plotted when a key swing high forms, identifying the last up-close candle high/low range before a downward impulse
 
+ ### 📈 [Valmiki Ramayan](https://vinaypoojary.github.io/Valmiki_Ramayan/) — Javascript & JSON
+
+
+
 ---
 
 ## 🎯 Current Deep Dives & Interests
