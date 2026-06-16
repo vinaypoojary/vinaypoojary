@@ -61,7 +61,18 @@ Bullish OB: Plotted when a key swing low forms, identifying the last down-close 
 Bearish OB: Plotted when a key swing high forms, identifying the last up-close candle high/low range before a downward impulse
 
  ### 📈 [Valmiki Ramayan](https://vinaypoojary.github.io/Valmiki_Ramayan/) — Javascript & JSON
-
+* **Product Impact:**
+This repository transforms dense, structured scriptural data into an accessible, highly readable digital edition of the Valmiki Ramayana. By modernizing the classic split-frame UX found in legacy archive portals, the application improves readability and analytical study. 
+* **Dual-Mode Visualization:** Users can toggle dynamically between an immersive, distraction-free "Sanskrit Only" view or a comprehensive "Sanskrit with Meaning" commentary view.
+* **Streamlined UI Hierarchy:** Replaced legacy frame interfaces with a fluid, horizontal drop-down architecture, maximizing modern screen real estate while keeping the content pane focused purely on text comprehension.
+* **On-Demand Contextual Indexing:** A responsive, toggleable navigation drawer grants immediate jumping permissions across thousands of verses without cluttering mobile screens or breaking reader immersion.
+  
+* **Technical Execution:**
+The system is built as a highly performant, lightweight, zero-dependency, single-file SPA (Single Page Application) engineered to run entirely client-side.
+* **Asynchronous Data Streamlining:** Uses the JavaScript `Fetch API` to asynchronously pipe and parse standard JSON data payloads from the local file directory, avoiding heavy backend server environments.
+* **Regex-Driven Typographical Engine:** Employs a precise, context-aware Regular Expression formatter (`formatShlokaText`) to intelligently intercept single (*danda*) and double (*double-danda*) punctuation marks, injecting semantic `<br>` tags to cleanly display verses inline with their historical numbering metadata.
+* **Hardware-Accelerated UI Responsiveness:** Built entirely with responsive CSS Flexbox/Grid structures and standard media queries. On smaller devices, the sidebar transforms from a vertical block into an index-minimized or horizontal swiping strip to minimize viewport layout shift (CLS).
+* **Smooth Viewport Virtualization:** Implements vanilla `.scrollIntoView({ behavior: 'smooth' })` hooks to transition viewports directly to targeted text cards immediately upon sidebar interaction. 
 
 
 ---
